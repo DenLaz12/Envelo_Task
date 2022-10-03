@@ -1,0 +1,28 @@
+A. W jakim celu używa się klas abstrakcyjnych, a w jakim interfejsów?
+
+Odpowiedż:
+
+Interfejs jest „umową” i musi być zaimplementowany przez klasę. Kiedy klasa implementuje interfejs, musi postępować zgodnie
+z zachowaniem opublikowanym przez interfejs. Interfejsy zwykle definiują właściwości i metody, które musi posiadać klasa i,
+w przeciwieństwie do klasy abstrakcyjnej, umożliwiają wielokrotne dziedziczenie.
+
+W przeciwieństwie do interfejsów, klasa abstrakcyjna może mieć implementacje metod. Pomaga to zapewnić, że kod można ponownie
+wykorzystać i że klasa zawiera oczekiwane zachowanie, rozszerzając istniejącą metodę lub implementując metodę abstrakcyjną już
+zdefiniowaną w klasie abstrakcyjnej.
+
+Jeśli potrzebujemy zachowania, musimy użyć interfejsu. Jeśli mówimy o obiekcie konceptualnym, musimy użyć klasy abstrakcyjnej.
+
+
+
+B. Czym różni się tablica od listy liniowej?
+
+Odpowiedż:
+
+Różnica polega na tym, że Tablica jest to strukturą danych, która w pamięci jest przechowywana jako cały blok, a w Liście każdy
+element w pamięci, przechowuje swoją wartość oraz pamięta adres kolejnego elementu. Dzięki tej właściwości dodawanie lub usuwanie
+elementów jest natychmiastowe, ponieważ następuje tylko przepięcie wskaźników. Jednakże pozytywną cechą Tablicy jest bardzo
+szybki czas odczytu, ponieważ elementy tablicy znajdują się w jednym miejscu, co oznacza, iż nie ma potrzeby przeszukiwania
+całego obszaru pamięci.
+
+Dlatego, jeśli często będziemy dodawać lub usuwać elementy powinniśmy wybrać Listę, jeśli jednak dane inicjalizujemy tylko raz
+lub rzadko, a wykonujemy wiele operacji odczytu powinniśmy wybrać Tablicę.
